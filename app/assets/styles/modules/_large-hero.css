@@ -8,12 +8,17 @@
         display: block;
     }
     &__text-content {
+        padding-top: 5.7rem;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
         left: 0;
         width: 100%;
         text-align: center;
+
+        @mixin atMedium {
+            padding-top: 4.1rem;
+        }
     }
     &__title {
         font-weight: 300;
