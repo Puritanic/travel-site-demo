@@ -5,19 +5,27 @@
     max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
+
     &--medium {
         max-width: 980px;
     }
+
+    &--narrow {
+        max-width: 470px;
+    }
+
     .wrapper {
         padding-left: 0;
         padding-right: 0;
     }
+
     &--b-margin {
         margin-bottom: 1rem;
         @mixin atSmall {
             margin-bottom: 3.85rem;
         }
     }
+
     &--no-padding-until-medium {
         padding-left: 0;
         padding-right: 0;
@@ -26,6 +34,7 @@
             padding-right: 18px;
         }
     }
+
     &--no-padding-until-large {
         padding-left: 0;
         padding-right: 0;
