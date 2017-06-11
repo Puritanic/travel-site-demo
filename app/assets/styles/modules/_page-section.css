@@ -1,9 +1,15 @@
 .page-section {
     padding: 1.3rem 0;
+
     &--blue {
         background-color: $mainBlue;
         color: #FFF;
     }
+
+    &__img--t-border{
+        margin-top: 0.5rem;
+    }
+
     &--testimonials {
     	background: #e0e6ef;
         @mixin atLarge {
@@ -11,9 +17,11 @@
             background-size: cover;
         }
     }
+
     @mixin atMedium {
         padding: 4.5rem 0;
     }
+    
     &--no-b-padding-until-large {
     	padding-bottom: 0;
     	@mixin atLarge {

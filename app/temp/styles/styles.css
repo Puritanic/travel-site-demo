@@ -641,6 +641,10 @@ a {
         color: #FFF;
     }
 
+.page-section__img--t-border{
+        margin-top: 0.5rem;
+    }
+
 .page-section--testimonials {
     	background: #e0e6ef;
     }
@@ -1313,3 +1317,19 @@ a {
 			background-color: transparent
 	}
     }
+
+/* Reveal on scroll css config */
+
+.reveal-item {
+	opacity: 0;
+	-webkit-transition: all 1.5s ease-out;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+.reveal-item--visible {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
