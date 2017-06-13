@@ -655,7 +655,7 @@ a {
 
 @media (min-width: 1010px) {
             .page-section--testimonials.lazyloaded {
-                background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+                background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
                 background-size: cover;
             }
     }
@@ -1007,11 +1007,11 @@ a {
 /* any code we include between first set of brackets will run only once for the first item that gets looped through*/
 
 .icon {
-			background-image: url('/assets/images/sprites/sprite-e79e95cc.svg');
+			background-image: url('../../assets/images/sprites/sprite-e79e95cc.svg');
 		}
 
 .no-svg .icon{
-			background-image: url('/assets/images/sprites/sprite-e79e95cc.png');
+			background-image: url('../../assets/images/sprites/sprite-e79e95cc.png');
 		}
 
 .icon--clear-view-escapes {

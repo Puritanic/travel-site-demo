@@ -58,8 +58,9 @@ gulp.task('copySpriteCSS', ['createSprite'], function(){
 		.pipe(gulp.dest('./app/assets/styles/modules'));
 });
 
-gulp.task('endClean', ['copySpriteGraphic', 'copySpriteCSS'], function(){
-	return del(['./app/temp/sprite']);
-})
+gulp.task('endClean', ['copySpriteGraphic', 'copySpriteCSS'], function() {
+  return del(['./app/temp/sprite', './app/temp/sprites']);
+});
+
 
 gulp.task('icons', ['beginClean', 'createSprite', 'createPngCopy', 'copySpriteGraphic', 'copySpriteCSS', 'endClean'] );

@@ -4,11 +4,11 @@
 {{#shapes}}
 	{{#first}} /* any code we include between first set of brackets will run only once for the first item that gets looped through*/
 		.icon {
-			background-image: url('/assets/images/sprites/{{{sprite}}}');
+			background-image: url('../../assets/images/sprites/{{{sprite}}}');
 		}
 
 		.no-svg .icon{
-			background-image: url('/assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
+			background-image: url('../../assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
 		}
 	{{/first}}
 	.icon--{{base}} {
