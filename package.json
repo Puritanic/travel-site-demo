@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Puritanic/travel-site-demo#readme",
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^4.0.0-rc1",
     "normalize.css": "^7.0.0",
